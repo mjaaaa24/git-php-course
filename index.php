@@ -27,20 +27,28 @@ $boolean - true or false statement.
 
     <?php
     $name = "Jianxin";
-    echo $name;
+    $test = $name;
+    
      ?>
+
+    <p>Hi! My name is <?php echo $test;?>.</p>
+
+
 
 <h3>Datatypes</h3>
 
     <?php
     //Scalar Types (Contains One Value)
-    $string = "Mark";
-    $int = 12345;
-    $float = 2.56;
-    $bool = true;
+    $string = "";
+    $int = 0;
+    $float = 0;
+    $bool = false;
 
-
+    $array = [];
+    $object = null;
      ?>
+
+
 
 </body>
 
